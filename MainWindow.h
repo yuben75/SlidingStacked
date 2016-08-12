@@ -3,11 +3,16 @@
 
 #include "SlidingStackedWidget.h"
 #include <QtGui>
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 #include <QPushButton>
 #include <QCheckBox>
 #include <QListWidget>
 #include <QSlider>
+#include <QComboBox>
+#include <QLCDNumber>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QGridLayout>
 
 class MainWindow : public QMainWindow
 {

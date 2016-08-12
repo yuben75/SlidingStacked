@@ -105,6 +105,9 @@ void MainWindow::createSlidingStackedWidget() {
     slidingStacked->addWidget(slideWidget2);
     slidingStacked->addWidget(slideWidget3);
     slidingStacked->addWidget(slideWidget4);
+
+
+
     slidingStacked->setSpeed(animTime);
 }
 
